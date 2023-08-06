@@ -1,0 +1,7 @@
+python -m venv 'env-name'
+cd env+scripts //change directory
+activate/deactivate
+cd.. // directory up
+cd ~  //to directly jump out to folder
+pip freeze > requirement.txt  //to make requirements for our lib
+pip install -r requirement.txt //to access someone's lib 
